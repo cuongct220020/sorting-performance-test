@@ -3,7 +3,7 @@ This program is designed to test and compare the execution times of three sortin
 Bubble Sort, Insertion Sort, and Quick Sort. It allows users to measure the performance of individual 
 sorting algorithms or compare all three simultaneously, using large datasets.
 
-**Features**
+**Features**<br>
 **1. Measure Execution Time of a Single Algorithm**<br>
    1.1 Import a .txt file containing more than 10,000 elements.<br>
    1.2 Specify the number of elements to sort.<br>
