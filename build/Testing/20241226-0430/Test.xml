@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="Darwin-c++"
+	BuildStamp="20241226-0430-Experimental"
+	Name="172-11-7-231.lightspeed.jcvlfl.sbcglobal.net"
+	Generator="ctest-3.31.3"
+	CompilerName="/Library/Developer/CommandLineTools/usr/bin/c++"
+	CompilerVersion="16.0.0.16000026"
+	OSName="macOS"
+	Hostname="172-11-9-237.lightspeed.chrlnc.sbcglobal.net"
+	OSRelease="15.1.1"
+	OSVersion="24B91"
+	OSPlatform="arm64"
+	Is64Bits="1"
+	VendorString="Apple"
+	VendorID="Apple"
+	FamilyID="0"
+	ModelID="0"
+	ModelName="Apple M1"
+	ProcessorCacheSize="131072"
+	NumberOfLogicalCPU="8"
+	NumberOfPhysicalCPU="8"
+	TotalVirtualMemory="0"
+	TotalPhysicalMemory="16384"
+	LogicalProcessorsPerPhysical="8"
+	ProcessorClockFrequency="0"
+	>
+	<Testing>
+		<StartDateTime>Dec 26 13:07 +07</StartDateTime>
+		<StartTestTime>1735193244</StartTestTime>
+		<TestList/>
+		<EndDateTime>Dec 26 13:07 +07</EndDateTime>
+		<EndTestTime>1735193244</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>

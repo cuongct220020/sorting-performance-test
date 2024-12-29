@@ -1,0 +1,2 @@
+Thời gian thực thi của thuật toán Insertion Sort với input n = 18992: 0.543095 giây
+Thời gian thực thi của thuật toán Quick Sort với input n = 78999: 0.027782 giây

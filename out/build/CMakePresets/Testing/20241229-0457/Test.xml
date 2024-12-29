@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="Darwin-clang++"
+	BuildStamp="20241229-0457-Experimental"
+	Name="172-11-5-43.lightspeed.jcvlfl.sbcglobal.net"
+	Generator="ctest-3.31.3"
+	CompilerName="/usr/bin/clang++"
+	CompilerVersion="16.0.0.16000026"
+	OSName="macOS"
+	Hostname="172-11-5-43.lightspeed.jcvlfl.sbcglobal.net"
+	OSRelease="15.1.1"
+	OSVersion="24B91"
+	OSPlatform="arm64"
+	Is64Bits="1"
+	VendorString="Apple"
+	VendorID="Apple"
+	FamilyID="0"
+	ModelID="0"
+	ModelName="Apple M1"
+	ProcessorCacheSize="131072"
+	NumberOfLogicalCPU="8"
+	NumberOfPhysicalCPU="8"
+	TotalVirtualMemory="4096"
+	TotalPhysicalMemory="16384"
+	LogicalProcessorsPerPhysical="8"
+	ProcessorClockFrequency="0"
+	>
+	<Testing>
+		<StartDateTime>Dec 29 11:57 +07</StartDateTime>
+		<StartTestTime>1735448262</StartTestTime>
+		<TestList/>
+		<EndDateTime>Dec 29 11:57 +07</EndDateTime>
+		<EndTestTime>1735448262</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>

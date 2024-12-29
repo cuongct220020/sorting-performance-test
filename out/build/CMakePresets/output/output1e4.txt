@@ -1,0 +1,20 @@
+Thời gian thực thi của thuật toán với input n = 10000:
+	1. Bubble Sort: 0.791255 giây
+	2. Insertion Sort: 0.143463 giây
+	3. Quick Sort: 0.001704 giây
+Thời gian thực thi của thuật toán với input n = 10000:
+	1. Bubble Sort: 0.805066 giây
+	2. Insertion Sort: 0.144528 giây
+	3. Quick Sort: 0.001722 giây
+Thời gian thực thi của thuật toán với input n = 10000:
+	1. Bubble Sort: 0.800704 giây
+	2. Insertion Sort: 0.146046 giây
+	3. Quick Sort: 0.001962 giây
+Thời gian thực thi của thuật toán với input n = 10000:
+	1. Bubble Sort: 0.804272 giây
+	2. Insertion Sort: 0.146086 giây
+	3. Quick Sort: 0.001694 giây
+Thời gian thực thi của thuật toán với input n = 10000:
+	1. Bubble Sort: 0.798854 giây
+	2. Insertion Sort: 0.145219 giây
+	3. Quick Sort: 0.001713 giây
