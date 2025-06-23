@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="Darwin-clang++"
+	BuildStamp="20250614-0342-Experimental"
+	Name="MacBook-Air-cua-Cuong-CT.local"
+	Generator="ctest-3.31.5"
+	CompilerName="/usr/bin/clang++"
+	CompilerVersion="17.0.0.17000013"
+	OSName="macOS"
+	Hostname="MacBook-Air-cua-Cuong-CT.local"
+	OSRelease="15.5"
+	OSVersion="24F74"
+	OSPlatform="arm64"
+	Is64Bits="1"
+	VendorString="Apple"
+	VendorID="Apple"
+	FamilyID="0"
+	ModelID="0"
+	ModelName="Apple M1"
+	ProcessorCacheSize="131072"
+	NumberOfLogicalCPU="8"
+	NumberOfPhysicalCPU="8"
+	TotalVirtualMemory="1024"
+	TotalPhysicalMemory="16384"
+	LogicalProcessorsPerPhysical="8"
+	ProcessorClockFrequency="0"
+	>
+	<Testing>
+		<StartDateTime>Jun 14 10:42 +07</StartDateTime>
+		<StartTestTime>1749872526</StartTestTime>
+		<TestList/>
+		<EndDateTime>Jun 14 10:42 +07</EndDateTime>
+		<EndTestTime>1749872526</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>

@@ -11,7 +11,7 @@ BuildDirectory: /Users/cuongct090_04/Code/test/out/build/CMakePresets
 CostDataFile: 
 
 # Site is something like machine.domain, i.e. pragmatic.crd
-Site: 172-11-5-43.lightspeed.jcvlfl.sbcglobal.net
+Site: MacBook-Air-cua-Cuong-CT.local
 
 # Build name is osname-revision-compiler, i.e. Linux-2.4.2-2smp-c++
 BuildName: Darwin-clang++
@@ -45,7 +45,7 @@ SVNOptions:
 SVNUpdateOptions: 
 
 # Git options
-GITCommand: 
+GITCommand: /opt/homebrew/bin/git
 GITInitSubmodules: 
 GITUpdateOptions: 
 GITUpdateCustom: 
@@ -58,13 +58,13 @@ P4UpdateOptions:
 P4UpdateCustom: 
 
 # Generic update command
-UpdateCommand: 
+UpdateCommand: /opt/homebrew/bin/git
 UpdateOptions: 
-UpdateType: 
+UpdateType: git
 
 # Compiler info
 Compiler: /usr/bin/clang++
-CompilerVersion: 16.0.0.16000026
+CompilerVersion: 17.0.0.17000013
 
 # Dynamic analysis (MemCheck)
 PurifyCommand: 
