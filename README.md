@@ -3,6 +3,8 @@ This program is designed to test and compare the execution times of three sortin
 Bubble Sort, Insertion Sort, and Quick Sort. It allows users to measure the performance of individual 
 sorting algorithms or compare all three simultaneously, using large datasets.
 
+-----------------------------------------------------------------------------------------------------
+
 **Features**<br>
 **1. Measure Execution Time of a Single Algorithm**<br>
    1.1 Import a .txt file containing more than 10,000 elements.<br>
@@ -18,3 +20,38 @@ sorting algorithms or compare all three simultaneously, using large datasets.
 
 **3. Exit Program**<br>
    The program allows users to exit gracefully at any point.
+
+-----------------------------------------------------------------------------------------------------
+
+**System Requirements**  
+   - **CMake** version **>= 3.10** (Tested up to 3.21)  
+   - A **C++ compiler** that supports **C++23** (e.g., GCC >= 13, Clang >= 15)  
+   - Compatible with macOS, Linux, or Windows with a proper build environment (e.g., MSYS2, WSL, or Visual Studio)
+
+-----------------------------------------------------------------------------------------------------
+
+**Build and Run Instructions**  
+
+**1. Clone the repository (if not already done):**  
+   ```bash
+   git clone https://github.com/Cuongit1-hust/IT3150-Project1-Sorting-Performance-Test.git
+   cd IT3150-Project1-Sorting-Performance-Test
+
+**2. Create a build directory and navigate into it:**
+   ```bash
+   mkdir build
+   cd build
+
+**3. Configure the project using Cmake:**
+   ```bash
+   cmake ..
+
+**4. Compile the program:**
+   ```bash
+   make
+
+**5. Run the program:**
+   ```bash
+   ./sorting_performance_test_cpp
+
+
