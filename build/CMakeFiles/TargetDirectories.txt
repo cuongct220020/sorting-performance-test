@@ -1,3 +1,0 @@
-/Users/cuongct090_04/Code/IT3150-Project I-Kỳ 2024.1/build/CMakeFiles/sorting_performance_test_cpp.dir
-/Users/cuongct090_04/Code/IT3150-Project I-Kỳ 2024.1/build/CMakeFiles/edit_cache.dir
-/Users/cuongct090_04/Code/IT3150-Project I-Kỳ 2024.1/build/CMakeFiles/rebuild_cache.dir
