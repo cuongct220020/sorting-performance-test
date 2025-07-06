@@ -1,0 +1,11 @@
+# build folder
+build/
+
+# vscode settings
+.vscode/
+
+# data folder
+data/
+
+# out folder
+out/
