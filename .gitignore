@@ -1,8 +1,8 @@
-# build folder
-build/
-
 # vscode settings
 .vscode/
+
+# build folder
+build/
 
 # data folder
 data/
