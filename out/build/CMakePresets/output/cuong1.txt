@@ -1,2 +1,0 @@
-Thời gian thực thi của thuật toán Quick Sort với input n = 99999: 0.035103 giây
-Thời gian thực thi của thuật toán Quick Sort với input n = 999999: 0.251504 giây

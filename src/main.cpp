@@ -4,7 +4,6 @@
 #include <iostream>
 #include <string>
 #include <vector>
-#include <filesystem>
 #include <stdexcept>
 
 int main(int, char **)
@@ -85,8 +84,8 @@ int main(int, char **)
                     }
                 }
 
-                std::filesystem::create_directories("input");
-                std::string inputFilepath = "input/" + inputFilename;
+
+                std::string inputFilepath = "../data/" + inputFilename;
                 generateDataToFile(inputFilepath.c_str(), inputNum);
 
                 std::vector<int> data = readDataFromFile(inputFilepath.c_str());
@@ -145,8 +144,6 @@ int main(int, char **)
                     std::cout << "Thời gian thực thi của thuật toán Quick Sort với đầu vào n = " << inputNum << ": " << executionTime << " giây.\n";
                 }
 
-                std::filesystem::create_directories("output");
-
                 std::string outputFilename;
                 while (true) {
                     try {
@@ -162,7 +159,7 @@ int main(int, char **)
                     }
                 }
 
-                std::string outputFilepath = "output/" + outputFilename;
+                std::string outputFilepath = "../out/" + outputFilename;
 
                 saveExecTimeToFile(outputFilepath.c_str(), sortFuncname, inputNum, executionTime);
                 std::cout << "Đã lưu kết quả vào file thành công.\n\n";
@@ -202,9 +199,8 @@ int main(int, char **)
                 if (choice2 == "a")
                 {
                     int n = 10000;
-                    std::filesystem::create_directories("input");
                     std::string inputFilename = "input1e4.txt";
-                    std::string inputFilepath = "input/" + inputFilename;
+                    std::string inputFilepath = "../data/" + inputFilename;
 
                     generateDataToFile(inputFilepath.c_str(), n);
                     data = readDataFromFile(inputFilepath.c_str());
@@ -230,7 +226,7 @@ int main(int, char **)
                     if (isTrueOutput) {
                         std::cout << "Tất cả các thuật toán sắp xếp cho cùng một kết quả!\n";
 
-                        std::string outputFilepath = "output/" + outputFilename;
+                        std::string outputFilepath = "../out/" + outputFilename;
 
                         saveResultsToFile(outputFilepath.c_str(), n, execTime1, execTime2, execTime3);
                         std::cout << "Đã lưu kết quả vào file " << outputFilename << " thành công.\n\n";
@@ -242,9 +238,8 @@ int main(int, char **)
                 else if (choice2 == "b")
                 {
                     int n = 100000;
-                    std::filesystem::create_directories("input");
                     std::string inputFilename = "input1e5.txt";
-                    std::string inputFilepath = "input/" + inputFilename;
+                    std::string inputFilepath = "../data/" + inputFilename;
 
                     generateDataToFile(inputFilepath.c_str(), n);
                     data = readDataFromFile(inputFilepath.c_str());
@@ -270,8 +265,8 @@ int main(int, char **)
                     if (isTrueOutput) {
                         std::cout << "Tất cả các thuật toán sắp xếp cho cùng một kết quả!\n";
 
-                        std::filesystem::create_directories("output");
-                        std::string outputFilepath = "output/" + outputFilename;
+                        
+                        std::string outputFilepath = "../out/" + outputFilename;
 
                         saveResultsToFile(outputFilepath.c_str(), n, execTime1, execTime2, execTime3);
                         std::cout << "Đã lưu kết quả vào file " << outputFilename << " thành công.\n\n";
@@ -283,9 +278,9 @@ int main(int, char **)
                 else if (choice2 == "c")
                 {
                     int n = 1000000;
-                    std::filesystem::create_directories("input");
+                    
                     std::string inputFilename = "input1e6.txt";
-                    std::string inputFilepath = "input/" + inputFilename;
+                    std::string inputFilepath = "../data/" + inputFilename;
 
                     generateDataToFile(inputFilepath.c_str(), n);
                     data = readDataFromFile(inputFilepath.c_str());
@@ -311,8 +306,8 @@ int main(int, char **)
                     if (isTrueOutput) {
                         std::cout << "Tất cả các thuật toán sắp xếp cho cùng một kết quả!\n";
 
-                        std::filesystem::create_directories("output");
-                        std::string outputFilepath = "output/" + outputFilename;
+                        
+                        std::string outputFilepath = "../out/" + outputFilename;
 
                         saveResultsToFile(outputFilepath.c_str(), n, execTime1, execTime2, execTime3);
                         std::cout << "Đã lưu kết quả vào file " << outputFilename << " thành công.\n\n";

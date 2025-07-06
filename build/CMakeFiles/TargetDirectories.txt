@@ -1,32 +1,3 @@
-/Users/cuongct090_04/Code/test/build/CMakeFiles/test-cpp.dir
-/Users/cuongct090_04/Code/test/build/CMakeFiles/Experimental.dir
-/Users/cuongct090_04/Code/test/build/CMakeFiles/Nightly.dir
-/Users/cuongct090_04/Code/test/build/CMakeFiles/Continuous.dir
-/Users/cuongct090_04/Code/test/build/CMakeFiles/NightlyMemoryCheck.dir
-/Users/cuongct090_04/Code/test/build/CMakeFiles/NightlyStart.dir
-/Users/cuongct090_04/Code/test/build/CMakeFiles/NightlyUpdate.dir
-/Users/cuongct090_04/Code/test/build/CMakeFiles/NightlyConfigure.dir
-/Users/cuongct090_04/Code/test/build/CMakeFiles/NightlyBuild.dir
-/Users/cuongct090_04/Code/test/build/CMakeFiles/NightlyTest.dir
-/Users/cuongct090_04/Code/test/build/CMakeFiles/NightlyCoverage.dir
-/Users/cuongct090_04/Code/test/build/CMakeFiles/NightlyMemCheck.dir
-/Users/cuongct090_04/Code/test/build/CMakeFiles/NightlySubmit.dir
-/Users/cuongct090_04/Code/test/build/CMakeFiles/ExperimentalStart.dir
-/Users/cuongct090_04/Code/test/build/CMakeFiles/ExperimentalUpdate.dir
-/Users/cuongct090_04/Code/test/build/CMakeFiles/ExperimentalConfigure.dir
-/Users/cuongct090_04/Code/test/build/CMakeFiles/ExperimentalBuild.dir
-/Users/cuongct090_04/Code/test/build/CMakeFiles/ExperimentalTest.dir
-/Users/cuongct090_04/Code/test/build/CMakeFiles/ExperimentalCoverage.dir
-/Users/cuongct090_04/Code/test/build/CMakeFiles/ExperimentalMemCheck.dir
-/Users/cuongct090_04/Code/test/build/CMakeFiles/ExperimentalSubmit.dir
-/Users/cuongct090_04/Code/test/build/CMakeFiles/ContinuousStart.dir
-/Users/cuongct090_04/Code/test/build/CMakeFiles/ContinuousUpdate.dir
-/Users/cuongct090_04/Code/test/build/CMakeFiles/ContinuousConfigure.dir
-/Users/cuongct090_04/Code/test/build/CMakeFiles/ContinuousBuild.dir
-/Users/cuongct090_04/Code/test/build/CMakeFiles/ContinuousTest.dir
-/Users/cuongct090_04/Code/test/build/CMakeFiles/ContinuousCoverage.dir
-/Users/cuongct090_04/Code/test/build/CMakeFiles/ContinuousMemCheck.dir
-/Users/cuongct090_04/Code/test/build/CMakeFiles/ContinuousSubmit.dir
-/Users/cuongct090_04/Code/test/build/CMakeFiles/test.dir
-/Users/cuongct090_04/Code/test/build/CMakeFiles/edit_cache.dir
-/Users/cuongct090_04/Code/test/build/CMakeFiles/rebuild_cache.dir
+/Users/cuongct090_04/Code/IT3150-Project I-Kỳ 2024.1/build/CMakeFiles/sorting_performance_test_cpp.dir
+/Users/cuongct090_04/Code/IT3150-Project I-Kỳ 2024.1/build/CMakeFiles/edit_cache.dir
+/Users/cuongct090_04/Code/IT3150-Project I-Kỳ 2024.1/build/CMakeFiles/rebuild_cache.dir

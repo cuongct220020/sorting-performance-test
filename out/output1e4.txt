@@ -1,0 +1,4 @@
+Thời gian thực thi của thuật toán với input n = 10000:
+	1. Bubble Sort: 0.792491 giây
+	2. Insertion Sort: 0.150653 giây
+	3. Quick Sort: 0.001878 giây
