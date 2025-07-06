@@ -33,28 +33,28 @@ The program allows users to exit gracefully at any point.
 **Build and Run Instructions**
 
 **1. Clone the repository (if not already done):**
-   ```bash
-   git clone https://github.com/Cuongit1-hust/IT3150-Project1-Sorting-Performance-Test.git
-   cd IT3150-Project1-Sorting-Performance-Test
-   ```
+```bash
+git clone https://github.com/Cuongit1-hust/IT3150-Project1-Sorting-Performance-Test.git
+cd IT3150-Project1-Sorting-Performance-Test
+```
 
-2. Create a build directory and navigate into it:
-   ```bash
-   mkdir build
-   cd build
-   ```
+**2. Create a build directory and navigate into it:**
+```bash
+mkdir build
+cd build
+```
 
 **3. Configure the project using Cmake:**
-   ```bash
-   cmake ..
-   ```
+```bash
+cmake ..
+```
 
 **4. Compile the program:**
-   ```bash
-   make
-   ```
+```bash
+make
+```
 
 **5. Run the program:**
-   ```bash
-   ./sorting_performance_test_cpp
-   ```
+```bash
+./sorting_performance_test_cpp
+```
