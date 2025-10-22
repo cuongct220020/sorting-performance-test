@@ -1,9 +1,9 @@
+# IT3150 - Project 1: Sorting Performance Test
+
 **Program Description**  
 This program is designed to test and compare the execution times of three sorting algorithms: 
 Bubble Sort, Insertion Sort, and Quick Sort. It allows users to measure the performance of individual 
 sorting algorithms or compare all three simultaneously, using large datasets.
-
----
 
 **Features**  
 **1. Measure Execution Time of a Single Algorithm**  
@@ -20,8 +20,6 @@ sorting algorithms or compare all three simultaneously, using large datasets.
 
 **3. Exit Program**  
 The program allows users to exit gracefully at any point.
-
----
 
 **System Requirements**  
    * **CMake** version **>= 3.10** (Tested up to 3.21)  
