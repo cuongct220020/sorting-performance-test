@@ -1,39 +1,67 @@
-# IT3150 - Project 1: Sorting Performance Test
+# Sorting Performance Test
 
-**Program Description**  
-This program is designed to test and compare the execution times of three sorting algorithms: 
-Bubble Sort, Insertion Sort, and Quick Sort. It allows users to measure the performance of individual 
-sorting algorithms or compare all three simultaneously, using large datasets.
+> **IT3150 - Project 1 - Hanoi University of Science and Technology**
 
-**Features**  
-**1. Measure Execution Time of a Single Algorithm**  
-   * 1.1 Import a .txt file containing more than 10,000 elements.  
-   * 1.2 Specify the number of elements to sort.  
-   * 1.3 Select one of three sorting algorithms (Bubble Sort, Insertion Sort, or Quick Sort).  
-   * 1.4 Display the execution time of the chosen algorithm and save the results to a specified output file.  
+A simple C++ program to **benchmark and compare** the execution time of three classic sorting algorithms: **Bubble Sort**, **Insertion Sort**, and **Quick Sort**.
 
-**2. Compare Execution Times of All Three Algorithms**  
-   * 2.1 Select a pre-defined dataset size: 10,000, 100,000, or 1,000,000 elements.  
-   * 2.2 Automatically load the corresponding input file.  
-   * 2.3 Measure and display the execution times of all three algorithms.  
-   * 2.4 Verify the accuracy of the sorted results and save them to an output file if all algorithms produce identical outputs.  
+## 📌 Overview
 
-**3. Exit Program**  
-The program allows users to exit gracefully at any point.
+This project measures and compares the real-world performance of three sorting algorithms on large datasets (10K, 100K, 1M elements). It also includes a theoretical analysis of their time complexity to explain the observed results.
 
-**System Requirements**  
-   * **CMake** version **>= 3.10** (Tested up to 3.21)  
-   * A **C++ compiler** that supports **C++23** (e.g., GCC >= 13, Clang >= 15)  
-   * Compatible with macOS, Linux, or Windows with a proper build environment (e.g., MSYS2, WSL, or Visual Studio)
+## 🧪 Algorithms & Theoretical Complexity
 
----
+The table below summarizes the theoretical time complexity of each algorithm:
 
-**Build and Run Instructions**
+<table>
+  <thead>
+    <tr>
+      <th>Algorithm</th>
+      <th>Average Time Complexity</th>
+      <th>Worst-Case Time Complexity</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Bubble Sort</strong></td>
+      <td>O(n²)</td>
+      <td>O(n²)</td>
+    </tr>
+    <tr>
+      <td><strong>Insertion Sort</strong></td>
+      <td>O(n²)</td>
+      <td>O(n²)</td>
+    </tr>
+    <tr>
+      <td><strong>Quick Sort</strong></td>
+      <td>O(n log n)</td>
+      <td>O(n²)</td>
+    </tr>
+  </tbody>
+</table>
 
-**1. Clone the repository (if not already done):**
+> 💡 **Key Insight**:  
+> Bubble Sort and Insertion Sort scale quadratically — doubling the input size increases runtime by ~4×.  
+> Quick Sort’s average-case `O(n log n)` is far more efficient, especially for large `n` (e.g., 1M elements).
+
+## ✅ Features
+
+- **Single Algorithm Test**: Load a custom `.txt` file, choose one algorithm, measure & save its runtime.
+- **Full Comparison Mode**: Automatically test all 3 algorithms on pre-defined datasets (10K, 100K, 1M).
+- **Result Validation**: Verify that all algorithms produce identical sorted output.
+- **Output Logging**: Save results to a file for later analysis.
+
+## ⚙️ System Requirements
+
+- **CMake** >= 3.10  
+- **C++ Compiler** supporting **C++23** (e.g., GCC 13+, Clang 15+)  
+- Works on **macOS**, **Linux**, and **Windows** (with WSL, MSYS2, or Visual Studio)
+
+## 🚀 How to Build & Run
+
+### 1. Clone the repository:
 ```bash
-git clone https://github.com/Cuongit1-hust/IT3150-Project1-Sorting-Performance-Test.git
-cd IT3150-Project1-Sorting-Performance-Test
+git clone https://github.com/cuongct220020/sorting-performance-test.git
+cd sorting-performance-test
 ```
 
 **2. Create a build directory and navigate into it:**
@@ -56,3 +84,11 @@ make
 ```bash
 ./sorting_performance_test_cpp
 ```
+
+### 📊 Results & Analysis
+Empirical results (see your attached plot) confirm the theoretical expectations:
+
+- Bubble Sort and Insertion Sort become impractically slow beyond 100K elements.
+- Quick Sort remains efficient even at 1M elements, demonstrating the advantage of O(n log n) scaling.
+  
+> For full experimental details and visualizations, refer to the project report.
