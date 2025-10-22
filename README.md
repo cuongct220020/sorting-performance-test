@@ -85,10 +85,16 @@ make
 ./sorting_performance_test_cpp
 ```
 
-### 📊 Results & Analysis
+## 📊 Results & Analysis
 Empirical results (see your attached plot) confirm the theoretical expectations:
 
 - Bubble Sort and Insertion Sort become impractically slow beyond 100K elements.
 - Quick Sort remains efficient even at 1M elements, demonstrating the advantage of O(n log n) scaling.
   
 > For full experimental details and visualizations, refer to the project report.
+
+## 📝 License
+Educational purpose
+
+## 👨‍💻 Author
+[@cuongct220020](https://github.com/cuongct220020)
